@@ -1,6 +1,8 @@
 import { CodePipeline, CodePipelineSource, ShellStep } from 'aws-cdk-lib/pipelines';
 import { Construct } from 'constructs';
 import {  Stack, StackProps } from 'aws-cdk-lib';
+import * as codepipeline_actions from 'aws-cdk-lib/aws-codepipeline-actions';
+import * as cdk from 'aws-cdk-lib';
 
 /**
  * The stack that defines the application pipeline
